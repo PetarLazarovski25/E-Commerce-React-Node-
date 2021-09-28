@@ -5,12 +5,13 @@ const Container = styled.div`
     padding-left: 30px;
     padding-top: 5px;
     height: 30px;
-    background-color: teal;
+    background-color: #620282;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 14px;
+    font-weight: bold;
 `
 
 const Announcement = () => {

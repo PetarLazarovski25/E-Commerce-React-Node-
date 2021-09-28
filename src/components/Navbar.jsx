@@ -5,7 +5,8 @@ import { Search, ShoppingCartOutlined } from '@material-ui/icons'
 
 const Container = styled.div`
     height:60px;
-
+    background-color: #110016;
+    color: white;
 `
 const Wrapper = styled.div`
     padding: 10px 20px;
@@ -24,7 +25,7 @@ const Language = styled.div`
     font-weight: 500;
 `
 const SearchContainer = styled.div`
-    border: 0.5px solid lightgray;
+    border: none;
     display: flex;
     align-items: center;
     margin-left: 25px;
@@ -64,7 +65,7 @@ const Navbar = () => {
                     </Language>
                     <SearchContainer>
                         <Input />
-                        <Search style={{ color: "gray", fontSize: 16 }} />
+                        <Search style={{ color: "gray", fontSize: 16, marginLeft: '10px' }} />
                     </SearchContainer>
                 </Left>
                 <Center>

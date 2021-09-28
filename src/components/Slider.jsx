@@ -8,6 +8,7 @@ const Container = styled.div`
     display: flex;
     position: relative;
     overflow: hidden;
+    background-color: #fef7ff;
 `
 const Arrow = styled.div`
     width: 50px;
@@ -40,9 +41,13 @@ const Slide = styled.div`
 const ImgContainer = styled.div`
     height: 100%;
     flex: 1;
+    margin-left: 35px;
+    background-color: #fef7ff; 
+    margin-top:35px; 
 `
 const Image = styled.img`
     height:80%;
+    opacity: 0.8;
 `
 const InfoContainer = styled.div`
     flex: 1;
